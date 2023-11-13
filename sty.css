@@ -1,0 +1,96 @@
+:root {
+    --btnW : 200px;
+    --btnH : 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    box-sizing: border-box;
+}
+
+
+#mainScreen{
+    /* border: 2px solid red; */
+    padding: 20px;
+    margin: auto;
+    background-color: bisque;
+}
+.head1{
+    text-align: center;
+    margin: 5%;
+}
+
+.btnMain{
+    display: block;
+    margin: 30px auto;
+    height: var(--btnH);
+    width: var(--btnW);
+    cursor: pointer;
+    
+}
+
+
+
+
+/*>>            Deposit Menu                    */
+.inpNumber{
+    width: 200px;
+    /* height: 50px; */
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 100px;
+    border: 2px solid red;
+}
+.inpNumber:hover{
+    border: 2px solid blue;
+}
+.btnOK{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.btnOK:hover{
+    color: aquamarine;
+}
+
+.message{
+    color: white;
+    /* background-color: black; */
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    height: 20px;
+    color: rgb(110, 184, 0);
+    text-align: center;
+}
+
+#depositMenu{
+    display: none;
+}
+
+/*>> Withdraw Menu*/
+#withdrawMenu{
+    display: none;
+}
+
+/*>> DISPLAY*/
+#Disp{
+    /* border: 2px solid red; */
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(141, 17, 17);
+    /* background-color: black; */
+}
+#displayMoney{
+    display: none;
+}

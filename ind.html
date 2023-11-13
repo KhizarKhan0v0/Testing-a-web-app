@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="./sty.css">
+</head>
+<body>
+    <div id="mainScreen">
+        <h1 class="head1">Welcome Sir</h1>
+        <button class="btnMain" onclick="depositMenu1()">1-Deposit Money</button>
+        <button class="btnMain" onclick="withdrawMenu1()">2-Withdraw Money</button>
+        <button class="btnMain" onclick="displayMenu1()">3-Display Money</button>
+    </div>
+
+    <div id="depositMenu">
+
+        <a style="text-decoration: none; display: block; text-align: center; color: aquamarine;" href="./index.html">HomePage</a>
+        <h1 class="head1">Deposit Menu</h1>
+        Enter the Ammount : <input id="amountD" class="inpNumber" type="number" placeholder="Enter the Amount to Deposit">
+        <button class="btnOK" onclick="depositMoney()">OK</button>
+        <p id="MessageD" class="message">mainScreen</p>
+        
+    </div>
+
+    <div id="withdrawMenu">
+        <h1 class="head1">Withdraw Menu</h1>
+        Enter the Ammount : <input type="number" id="amountW" class="inpNumber" placeholder="Enter The Amount to Withdraw">
+        <button class="btnOK" onclick="withdrawMoney()">OK</button>
+        <p class="message" id="MessageW">Main Screen</p>
+
+
+    </div>
+
+    <div id="displayMoney">
+        <h1 class="head1">Display Menu</h1>
+        <p id="Disp">screen</p>
+    </div>
+
+
+
+
+    <script src="./scr.js"></script>
+</body>
+</html>
